@@ -1,0 +1,20 @@
+/* Remove placeholder used for window buttons */
+#TabsToolbar .titlebar-placeholder {display: none !important; }
+#titlebar {display: none !important;}
+
+/* Move the tab toolbar below the content. */
+#TabsToolbar {
+   position: fixed;
+   bottom: -2px;
+   width: 100%;
+}
+
+
+/* Move the content deck bottom up by the tab height. */
+#content-deck {
+    /* margin-bottom: var(--tab-min-height) !important; */
+    margin-bottom: 30px !important;
+}
+
+/* Maintain tabs width. */
+#tabbrowser-tabs { width: 96%; }

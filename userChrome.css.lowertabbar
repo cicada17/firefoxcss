@@ -1,0 +1,18 @@
+/* Remove placeholder used for window buttons */
+#TabsToolbar .titlebar-placeholder {display: none !important; }
+#titlebar {display: none !important;}
+
+#TabsToolbar {
+ -moz-box-ordinal-group: 2 !important;
+}
+#PersonalToolbar {
+ -moz-box-ordinal-group: 3 !important;
+}
+
+.tab-line { display: none !important; }
+
+/*
+#tabbrowser-tabs {
+  --tab-line-color: var(--lwt-accent-color) !important;
+}
+*/

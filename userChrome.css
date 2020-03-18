@@ -1,0 +1,52 @@
+#nav-bar {
+  padding-left: 70px;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+:root[inFullscreen] #nav-bar{
+  padding-left: 0px;
+}
+
+#TabsToolbar {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.titlebar-buttonbox-container {
+  display: block;
+  position: fixed;
+  top: 8px;
+}
+
+#titlebar {
+  -moz-box-ordinal-group: 2;
+  -moz-appearance: none !important;
+}
+
+.titlebar-spacer {
+  display: none;
+}
+
+#navigator-toolbox {
+  border-bottom: solid gray 1px;
+}
+
+.tab-line {
+  height: 1px !important;
+}
+
+/* Show close button on hover only*/
+
+.tabbrowser-tab:not(:hover) .tab-close-button{
+  display:none;
+}
+
+.tabbrowser-tab:not([pinned]):hover .tab-close-button{
+  display:block !important;
+}
+
